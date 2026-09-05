@@ -1,0 +1,23 @@
+{
+  "name": "noteastic-mcp",
+  "version": "0.2.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Local export and read-only MCP server for Noteastic .ntcbak backups",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@napi-rs/canvas": "^0.1.100",
+    "adm-zip": "^0.6.0",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^5.7.284",
+    "zod": "^3.25.76"
+  }
+}
